@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+.parent1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: aqua;
+  margin: 20px;
+  padding: 30px;
+  border: 2px solid black;
+}
+#child1 {
+  margin: 15px;
+  background-color: rgb(244, 13, 13);
+  padding: 15px;
+  border: 2px solid black;
+}
+#child2 {
+  margin: 15px;
+  background-color: blue;
+  padding: 15px;
+  border: 2px solid black;
+}
+.parent2 {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  background-color: rgb(90, 203, 20);
+  margin: 20px;
+  padding: 30px;
+  border: 2px solid black;
+}
+#child3 {
+  margin: 15px;
+  background-color: rgb(230, 13, 13);
+  padding: 15px;
+  border: 2px solid black;
+}
+#child4 {
+  margin: 15px;
+  background-color: blue;
+  padding: 15px;
+  border: 2px solid black;
+}
+.parent3 {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  background-color: rgb(106, 15, 210);
+  margin: 20px;
+  padding: 30px;
+  border: 2px solid black;
+}
+#child5 {
+  margin: 15px;
+  background-color: rgb(246, 160, 160);
+  padding: 15px;
+  border: 2px solid black;
+}
+#child6 {
+  margin: 15px;
+  background-color: blue;
+  padding: 15px;
+  border: 2px solid black;
+}
+.parent4 {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  background-color: rgb(236, 25, 187);
+  margin: 20px;
+  padding: 30px;
+  border: 2px solid black;
+}
+#child7 {
+  margin: 15px;
+  background-color: rgb(194, 149, 235);
+  padding: 15px;
+  border: 2px solid black;
+}
+#child8 {
+  margin: 15px;
+  background-color: blue;
+  padding: 15px;
+  border: 2px solid black;
+}
+button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 5px;
+  text-align: center;
+}
+button:hover {
+  background-color: #dd3c62;
+}
+.result {
+  margin-top: 10px;
+  padding: 8px 15px;
+  font-weight: bold;
+  background-color: #c81f1f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 10px;
+}
+.image-search {
+  text-align: center;
+  margin: 20px auto;
+  padding: 15px;
+  border: 2px solid #000;
+  width: 80%;
+  background-color: #f3f3f3;
+  border-radius: 8px;
+}
+
+.image-search input {
+  padding: 8px;
+  width: 200px;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+.image-search button {
+  padding: 8px 12px;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.image-search button:hover {
+  background-color: #dd3c62;
+}
+
+.image-container {
+  margin-top: 15px;
+}
+
+.image-container img {
+  max-width: 300px;
+  max-height: 200px;
+  border: 2px solid black;
+  border-radius: 5px;
+}

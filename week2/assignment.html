@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <link rel="stylesheet" href="assignment.css" />
+  </head>
+  <body>
+    <h1>Assignment</h1>
+    <div class="parent1">
+      <div id="child1">
+        <h2>Marvel Heores</h2>
+      </div>
+      <div id="child2">
+        <h2>DC Heores</h2>
+      </div>
+      <!-- <div class="image-search">
+      <input type="text" id="imageInput" placeholder="Enter keyword (e.g. Marvel/DC)" />
+      <button onclick="showImage()">Show Image</button>
+      <div class="image-container">
+        <img id="displayedImage" src="" alt="" />
+      </div>
+    </div> -->
+      <button onclick="addNumbers()">Add</button>
+      <p id="addResult" class="result"></p>
+    </div>
+    <div class="parent2">
+      <div id="child3">
+        <h2>Iron Man</h2>
+      </div>
+      <div id="child4">
+        <h2>Bat Man</h2>
+      </div>
+      <button onclick="subtractNumbers()">Subtract</button>
+      <p id="subResult" class="result"></p>
+    </div>
+    <div class="parent3">
+      <div id="child5">
+        <h2>Avengers</h2>
+      </div>
+      <div id="child6">
+        <h2>Super Man</h2>
+      </div>
+      <button onclick="multiplyNumbers()">Multiplication</button>
+      <p id="mulResult" class="result"></p>
+    </div>
+    <div class="parent4">
+      <div id="child7">
+        <h2>Spider Man</h2>
+      </div>
+      <div id="child8">
+        <h2>Ant Man</h2>
+      </div>
+      <button onclick="divideNumbers()">Division</button>
+      <p id="divResult" class="result"></p>
+    </div>
+    <div class="image-search">
+      <input
+        type="text"
+        id="heroInput"
+        placeholder="Enter keyword (e.g. Marvel/DC)"
+      />
+      <button onclick="showHeroImage()">Show Image</button>
+
+      <p id="heroMessage" style="color: red; font-weight: bold"></p>
+
+      <div class="image-container">
+        <img id="heroImage" src="" alt="" style="display: none" />
+      </div>
+    </div>
+
+    <script src="assignment.js"></script>
+  </body>
+</html>

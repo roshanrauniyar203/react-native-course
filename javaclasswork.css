@@ -1,0 +1,53 @@
+.group1 {
+  border: 2px solid #333;
+  padding: 15px;
+  margin: 10px;
+  width: 260px;
+  border-radius: 8px;
+}
+
+.group2 {
+  border: 2px solid #333;
+  padding: 15px;
+  margin: 10px;
+  width: 260px;
+  border-radius: 8px;
+}
+
+.group3 {
+  border: 2px solid #333;
+  padding: 15px;
+  margin: 10px;
+  width: 260px;
+  border-radius: 8px;
+}
+.group4 {
+  border: 2px solid #333;
+  padding: 15px;
+  margin: 10px;
+  width: 260px;
+  border-radius: 8px;
+}
+.group5 {
+  border: 2px solid #333;
+  padding: 15px;
+  margin: 10px;
+  width: 260px;
+  border-radius: 8px;
+}
+button{
+  background-color: #4caf50;
+  border: none;
+  color: rgb(176, 20, 20);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #0d18e5;
+}
