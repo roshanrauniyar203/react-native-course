@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LMS Student Support</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Student Support</h2>
+
+  <form id="supportForm">
+    <input type="text" id="name" placeholder="Student Name" required>
+    <input type="email" id="email" placeholder="Student Email" required>
+    <textarea id="message" placeholder="Write your query..." required></textarea>
+    <button type="submit">Send Query</button>
+  </form>
+
+  <h3>Submitted Queries</h3>
+  <div id="queryList"></div>
+</div>
+
+<!-- ✅ Your script MUST be module -->
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
